@@ -1,9 +1,7 @@
 "use client";
 
-import { useState, useEffect } from 'react';
 import VCardProfile from './components/VCardProfile';
 import ThemeSwitcher from './components/ThemeSwitcher';
-import { generateVCardData } from './utils/vcard';
 
 export default function Home() {
   const profile = {

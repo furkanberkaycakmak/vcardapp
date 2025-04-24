@@ -1,5 +1,4 @@
 import React from 'react';
-import Image from 'next/image';
 import { FaPhone, FaEnvelope, FaMapMarkerAlt, FaGithub, FaLinkedin, FaTwitter, FaInstagram } from 'react-icons/fa';
 
 interface VCardProfileProps {
@@ -25,7 +24,7 @@ interface VCardProfileProps {
 }
 
 const VCardProfile: React.FC<VCardProfileProps> = ({ profile, skills }) => {
-    const { name, title, avatar, phone, email, location, bio, socialLinks } = profile;
+    const { name, title, phone, email, location, bio, socialLinks } = profile;
 
     return (
         <div className="card w-full max-w-4xl bg-base-100 shadow-xl">
